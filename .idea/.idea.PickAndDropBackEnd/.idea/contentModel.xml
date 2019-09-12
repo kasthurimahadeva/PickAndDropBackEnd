@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/.Rider2019.2/system/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.Rider2019.2/system/resharper-host/local/Transient/ReSharperHost/v192/SolutionCaches/_PickAndDropBackEnd.-1254526581.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p=".gitignore" t="Include" />
+      <e p="Controllers" t="Include">
+        <e p="ComplaintsController.cs" t="Include" />
+        <e p="ValuesController.cs" t="Include" />
+      </e>
+      <e p="Data" t="Include">
+        <e p="ComplaintsDbContext.cs" t="Include" />
+      </e>
+      <e p="Migrations" t="Include">
+        <e p="20190912072746_InitialDataBase.Designer.cs" t="Include" />
+        <e p="20190912072746_InitialDataBase.cs" t="Include" />
+        <e p="ComplaintsDbContextModelSnapshot.cs" t="Include" />
+      </e>
+      <e p="Models" t="Include">
+        <e p="Complaints.cs" t="Include" />
+      </e>
+      <e p="PickAndDropBackEnd.csproj" t="IncludeRecursive" />
+      <e p="PickAndDropBackEnd.sln" t="IncludeFlat" />
+      <e p="Program.cs" t="Include" />
+      <e p="Properties" t="Include">
+        <e p="launchSettings.json" t="Include" />
+      </e>
+      <e p="Startup.cs" t="Include" />
+      <e p="appsettings.Development.json" t="Include" />
+      <e p="appsettings.json" t="Include" />
+      <e p="bin" t="ExcludeRecursive" />
+      <e p="complaints.db" t="Include" />
+      <e p="obj" t="ExcludeRecursive">
+        <e p="Debug" t="Include">
+          <e p="netcoreapp2.2" t="Include">
+            <e p="PickAndDropBackEnd.AssemblyInfo.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
