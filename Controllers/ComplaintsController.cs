@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -23,6 +24,7 @@ namespace PickAndDropBackEnd.Controllers
 
             // GET: api/Complaints
         [HttpGet]
+        [Authorize]
         public async Task<ActionResult<IEnumerable<Complaints>>> GetComplaintsList()
         {
             return await _context.Complaints.ToListAsync();
@@ -47,6 +49,7 @@ namespace PickAndDropBackEnd.Controllers
 
         // PUT: api/Complaints/5
         [HttpPut("{id}")]
+        [Authorize]
         public async Task<IActionResult> PutComplaint(long id, Complaints complaints)
         {
             if(id!=complaints.ComplaintId)
